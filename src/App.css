@@ -1,0 +1,37 @@
+.formcol{
+ 
+  height: auto;
+  box-shadow: 2px 2px 2px 2px blue;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 426px) {
+  .formcol{
+    width: 80% !important;
+    margin-left: 10%;
+  }
+  tbody{
+    font-size: 12px !important;
+  }
+}
+nav.navbar{
+background-color: blue;
+}
+.navbar-ul{
+ 
+  display: flex;
+}
+.navbar-ul li {
+  list-style: none;
+  margin-left: 10px;
+  
+  
+}
+
+.list{
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+.list:hover{
+  color: aqua;
+}
